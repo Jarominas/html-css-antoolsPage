@@ -123,6 +123,7 @@
         align-items: center;
         text-align: center;
         h1 {
+            width: 100%;
             font-size: 20px;
         }
 
@@ -134,7 +135,10 @@
         .header__label {
             padding-left: 45px;
         }
-
+        .header__form {
+            width: 100%;
+        }
        
     }
 }
+

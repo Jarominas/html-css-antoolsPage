@@ -371,6 +371,7 @@ img {
     text-align: center;
   }
   .header__content h1 {
+    width: 100%;
     font-size: 20px;
   }
   .header__content p {
@@ -379,5 +380,8 @@ img {
   }
   .header__content .header__label {
     padding-left: 45px;
+  }
+  .header__content .header__form {
+    width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */
