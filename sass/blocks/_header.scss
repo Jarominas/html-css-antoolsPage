@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: space-between;
     
+    
     h1 {
        width: 600px;
        font-size: 50px; 
@@ -26,6 +27,7 @@
        }
 
     p {
+        width: 487px;
         margin-bottom: 60px;
     }
 }
@@ -69,6 +71,7 @@
 }
 .header__input {
     background: #283036;
+    color: #fff;
     flex-grow: 1;
 }
 .button {
@@ -77,4 +80,21 @@
 .header__social {
     display: flex;
     gap: 20px;
+
+    a:hover {
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .header__img {
+        display: none;
+    }
+    .header__content {
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+
+    }
 }
