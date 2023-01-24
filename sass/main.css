@@ -180,7 +180,7 @@ img {
     position: absolute;
     left: -260px;
     top: 0;
-    background-color: transparent;
+    background-color: rgba(40, 48, 54, 0.9);
     padding-top: 50px;
     margin: 0;
     transition: 0.4s ease-in;
@@ -264,4 +264,75 @@ img {
   .burger__menu {
     display: block;
   }
+}
+.header {
+  margin-top: 100px;
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header__content h1 {
+  width: 600px;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+.header__content span {
+  color: #FF6E30;
+}
+.header__content p {
+  margin-bottom: 60px;
+}
+
+.header__form {
+  background: #283036;
+  width: 497px;
+  border-radius: 15px;
+  height: 58px;
+  margin-bottom: 110px;
+}
+
+.header__label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 70px;
+  height: 100%;
+  position: relative;
+}
+.header__label::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 17px;
+  left: 21px;
+  width: 24px;
+  height: 24px;
+  background-image: url(./../img/header/search.svg);
+  background-image: no-repeat;
+  background-size: initial;
+}
+
+.header__input {
+  background: #283036;
+  flex-grow: 1;
+}
+
+.button {
+  margin-right: 10px;
+}
+
+.header__social {
+  display: flex;
+  gap: 20px;
 }/*# sourceMappingURL=main.css.map */
