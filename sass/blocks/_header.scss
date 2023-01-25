@@ -41,6 +41,7 @@
     height: 58px;
 
     margin-bottom: 110px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
 
@@ -75,6 +76,7 @@
     background: #283036;
     color: #fff;
     flex-grow: 1;
+    
 }
 .button {
     margin-right: 10px;
@@ -82,6 +84,10 @@
 .header__social {
     display: flex;
     gap: 20px;
+    
+    a {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
 
     a:hover {
         box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
@@ -124,12 +130,12 @@
         text-align: center;
         h1 {
             width: 100%;
-            font-size: 20px;
+            font-size: 30px;
         }
 
         p{
             width: 100%;
-            font-size: 10px;
+            font-size: 16px;
         }
 
         .header__label {

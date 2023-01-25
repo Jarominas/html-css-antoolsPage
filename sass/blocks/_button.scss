@@ -10,3 +10,16 @@
     background-color:#f46121;
    }
 }
+
+.tools__btn {
+   padding: 9px 35px;
+   background-color: transparent;
+   color: rgba(255, 255, 255, 0.55);
+   border-radius: 8px;
+   transition: 0.3s ease-in;
+
+   &:hover {
+    color: #FDF5FF;
+    background-color:#f46121;
+   }
+}
