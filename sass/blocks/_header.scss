@@ -71,11 +71,23 @@
         background-size: initial;
 
     }
+
+    &.join__us {
+        padding-left: 30px;
+    }
+    
+    &.join__us::before {
+        display: none;
+    }
 }
 .header__input {
     background: #283036;
     color: #fff;
     flex-grow: 1;
+
+    &.input__email {
+        margin-right: 100px;
+    }
     
 }
 .button {

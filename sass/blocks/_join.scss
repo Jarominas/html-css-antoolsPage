@@ -1,0 +1,33 @@
+.join {
+
+    margin-top: 200px;
+   
+}
+
+.join__content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 553px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+
+    h2 {
+        
+        padding-bottom: 25px;
+    }
+
+    p {
+       padding-bottom: 60px; 
+    }
+}
+
+@media (max-width: 991px) {
+    .join__content {
+        width: 100%;
+        h2 {
+            font-size: 25px;
+        }
+    }
+}

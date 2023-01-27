@@ -1,0 +1,44 @@
+.footer {
+    margin-top: 50px;
+    border-top: 0.5px solid rgba($color: #ffffff, $alpha: 0.15);
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 70px;
+}
+.footer__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 260px;
+    height: 183px;
+    
+    p {
+        font-size: 14px;
+    }
+}
+.footer__logo {
+    display: flex;
+    justify-content: flex-start;
+
+}
+.footer__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    p{
+        font-size: 14px;
+    }
+    
+}
+.contact__column {
+}
+.categories__column {
+    
+}
+.company__column {
+}
