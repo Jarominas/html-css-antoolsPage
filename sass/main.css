@@ -419,6 +419,9 @@ img {
   .header__content .header__form {
     width: 100%;
   }
+  .header__input.input__email {
+    margin-right: 10px;
+  }
 }
 .tools {
   margin-top: 200px;
@@ -589,6 +592,7 @@ img {
 
 .footer__row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 70px;
@@ -612,10 +616,20 @@ img {
 
 .footer__right {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   gap: 50px;
 }
 .footer__right p {
   font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    width: 100%;
+  }
+  .footer__left {
+    margin-bottom: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */

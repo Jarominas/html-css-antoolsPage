@@ -5,6 +5,7 @@
 
 .footer__row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 70px;
@@ -27,6 +28,7 @@
 }
 .footer__right {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     gap: 50px;
@@ -41,4 +43,13 @@
     
 }
 .company__column {
+}
+
+@media (max-width: 767px) {
+    .footer {
+        width: 100%;
+    }
+    .footer__left {
+        margin-bottom: 20px;
+    }
 }
