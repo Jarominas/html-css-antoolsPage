@@ -1,2 +1,2 @@
 Landign page with HTML / CSS <br>
-[jarominas.github.io/antoolsLanding/](url)
+[https://jarominas.github.io/html-css-antoolsPage/](url)
